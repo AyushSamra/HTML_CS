@@ -1,0 +1,59 @@
+/* Set a common style for centering and styling headers */
+
+#para, #agra, #jaipur, #delhi {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+}
+
+#para {
+    font-size: 42px;
+    color: #afb2d9;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+}
+
+body {
+    background-image: url(india.jpg);
+    background-attachment: fixed;
+}
+
+/* Header styles */
+h3 {
+    color: #1b1137; /* Change header text color */
+    text-transform: uppercase; /* Make headers uppercase */
+    transition: color 0.3s ease; /* Add color transition */
+}
+
+h3:hover {
+    color: #f20000; /* Change header text color on hover */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+}
+
+/* Image styles */
+img {
+    border: 2px solid #080404; /* Add a border to images */
+    border-radius: 8px; /* Add rounded corners to images */
+    transition: transform 0.3s ease; /* Add image transformation transition */
+}
+
+img:hover {
+    transform: scale(1.05); /* Enlarge the image on hover */
+    border: 2px solid gold;
+}
+
+.places{
+    position: relative;
+    cursor: pointer;
+}
+
